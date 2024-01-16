@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for digitalia_muni_double_field_remove_button module.
+ *
+ * @DCG
+ * This file is no longer required in Drupal 8.
+ * @see https://www.drupal.org/node/2217931
+ */
+
+function digitalia_muni_double_field_remove_button_multiple_field_remove_button_field_types_alter(array &$fieldTypes) {
+  $fieldTypes[] = "double_field";
+  $fieldTypes[] = "typed_relation";
+}
+
